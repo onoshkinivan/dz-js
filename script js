@@ -32,22 +32,24 @@ if (tegt = 1) {
 }
 //№5
 let g = 45;
-while (g++ < 67) {
+while (g < 67) {
+    g++;
     console.log(g)
 }
 
 //№6
 let j = 45;
-while (j++ < 670) {
+while (j < 670) {
   j % 10 == 0;
+  j++;
   console.log(j)
 }
 //№7
-for (g = 45; g++ < 67) {
+for (g = 45; g < 67; g++) {
     console.log(g)
 }
 
-for (j= 45; j++ < 670) {
+for (j= 45; j < 670; j++) {
   console.log(j)
 }
 //№8
